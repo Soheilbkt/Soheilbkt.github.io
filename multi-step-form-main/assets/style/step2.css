@@ -1,0 +1,104 @@
+.box{
+    height: 9em;
+    border: 1px solid #dbdbdbe8;
+    display: flex;
+    padding: 9px;
+    width: 7rem;
+    border-radius: 7px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    transition: .4s;
+    color: #02295a;
+}
+
+
+.bo{
+    background: #673ab70d;
+    border: 1px solid #673ab7;
+    transition: .4s;
+
+}
+.box p:nth-child(2){
+    font-size: 15px;
+    font-family: 'soheilS';
+    color: silver;
+    font-weight: 500;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.box p:nth-child(3){
+    font-weight: 100;
+        font-size: 12px;
+        color: #02295abf;
+    margin-top: 11px;
+    display: none;
+    
+}
+.btn-toggle{
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: hsl(231, 11%, 63%); 
+    
+    
+ 
+}
+.toggle{
+    background: #02295a;
+    width: 11%;
+    margin-inline: 13px;
+    height: 2vh;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.toggle > div{
+    width: 2vh;
+    border-radius: 20px;
+    height: 2vh;
+    background: white;
+}
+.btns{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    padding: 1px 30px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.btns button:nth-child(2){
+    background-color: transparent;
+}
+.btns button:nth-child(2) a{
+    color: hsl(231, 11%, 63%);
+}
+.yearly{
+    display: flex;
+    transition: .5s;
+    justify-content: flex-end;
+}
+
+.box:hover{
+    border-color: #673ab7;
+    transition: .5s;
+}
+.activ-box {
+    background-color: #683ab708;
+    border-color: #673ab7;
+    transition: .5s;
+}
+.box-items{
+    width: 100%;
+}

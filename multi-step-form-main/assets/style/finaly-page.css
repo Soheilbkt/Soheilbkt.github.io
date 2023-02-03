@@ -1,0 +1,16 @@
+.content-like{
+    display: flex;
+    flex-direction: column;
+    height: 26vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-like h1{
+    color: hsl(213, 96%, 18%);
+}
+.content-like p {
+    font-weight: 100;
+    color:#6767678a;
+    text-align: center;
+    line-height: 20px;
+}

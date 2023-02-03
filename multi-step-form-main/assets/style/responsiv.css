@@ -1,0 +1,196 @@
+@media  (max-width:450px) {
+    /* step-1*/
+    .page-main{
+        display: flex;
+        flex-direction: column;
+        border-radius: 19px;
+        border-radius: 9px;
+        width: 100%;
+        padding: 0px;
+        height: auto;
+        box-shadow: none;
+        background: transparent;
+        margin: 0px;
+        align-items: center;
+       
+    }
+    .main {
+        display: flex;
+        width: 100%;
+        height: 22vh;
+         margin: 0;
+        /* background: red; */
+        align-items: center;
+    }
+    .img-step {
+        background-image: url(../images/bg-sidebar-mobile.svg);
+        width: 100%;
+        height: 96%;
+        margin: 0;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-position: 0px;
+        background-size: cover;
+    }
+    .detuils{
+        display: none;
+    }
+    .count-setp {
+        height: fit-content;
+        /* width: initial; */
+        /* background: red; */
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-between;
+        transform: translate(0px, -35px);
+    }
+    .forms{
+        background: white;
+        width: 80%;
+        /* padding: 48px; */
+        display: flex;
+        height: auto;
+        padding: 11px;
+        border-radius: 8px;
+        transform: translate(0px, -69px);
+        flex-direction: column;
+    }
+
+    .form {
+        display: flex;
+        /* background: red; */
+        width: 92%;
+        height: 36vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .form > div input {
+        border-radius: 5px;
+        /* padding: 11px 77px; */
+        width: 100%;
+        padding: 7px 12px;
+        border: 1.7px solid #cdcdcd99;
+        height: 4vh;
+        transition: .4s;
+        outline: none;
+        margin-top: 6px;
+    }
+    .head-text h2{
+        font-size: 22px;
+    }
+    .head-text p{
+        font-size: 15px;
+    }
+    .btns {
+        width: 92%;
+        /* background: red; */
+        display: flex;
+        padding: 1px 30px;
+        flex-direction: row-reverse;
+    }
+    .head-text{
+        margin: 12px 1px;
+    }
+
+
+    /* end step-1*/
+    /*  step-2*/
+    .box {
+        height: fit-content;
+        border: 1px solid #dbdbdbe8;
+        display: flex;
+        padding: 10px 15px;
+        width: 86%;
+        /* margin-top: 0; */
+        border-radius: 7px;
+        justify-content: flex-start;
+        transition: .4s;
+        color: #02295a;
+        flex-direction: row;
+        align-items: center;
+    }
+    .btn-toggle {
+        background-color: hsl(217, 100%, 97%);
+        border-radius: 6px;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        padding: 11px 1px;
+        justify-content: center;
+        align-items: center;
+        margin: 26px 1px;
+        height: 5vh;
+        color: hsl(231, 11%, 63%);
+    }
+    .boxes {
+        display: flex;
+    height: 41vh;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .pr{
+        margin-left: 14px;
+    }
+
+    /* end step-2*/
+    /*  step-3*/
+    .cart-service {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        /* display: flex; */
+       
+        padding: 20px 18px;
+        border-radius: 8px;
+        flex-wrap: wrap;
+        margin: 7px 2px;
+        transition: .4s;
+        align-items: center;
+    }
+    .tille-service > div h3 {
+        width: 106%;
+        color: #02295a;
+        font-size: 14px;
+    }
+    .tille-service > div h5 {
+        font-size: 12px;
+        font-weight: 400;
+        width: 29vh;
+        color: hsl(231, 11%, 63%);
+        font-family: vazirB;
+    }
+        /* end step-3*/
+        /*  step-4*/
+    
+
+    .one-stpe {
+        text-transform: capitalize;
+        border-radius: 6px;
+        background: #c0c0c021;
+        padding: 14px 32px;
+        width: 80%;
+    }
+    .head-art{
+        width: 100%;
+    }
+    .sevice{
+        width: 100%;
+    }
+    .sevice h4:nth-child(1){
+        font-size: 15px;
+    }
+    .sevice h4:nth-child(2){
+        font-size: 14px;
+        color: #02295a;
+    }
+    .sumprice{
+        width: 90%;
+    }
+    .sumprice h2{
+        font-size: 18px;
+    }
+    /* end step-4*/
+}

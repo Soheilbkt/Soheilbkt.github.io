@@ -1,0 +1,50 @@
+.btns{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    padding: 1px 30px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.back{
+    text-decoration: none;
+    color: silver;
+}
+.total{
+    width: 100%;
+}
+.one-stpe{
+    text-transform: capitalize;
+    border-radius: 6px;
+    background: #c0c0c021;
+    padding: 30px;
+    width: 100%;
+}
+.head-art{
+    display: flex;
+    padding: 12px;
+    color: hsl(213, 96%, 18%);
+    justify-content: space-between;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #c0c0c080;
+}
+.sevice{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.sevice h4:nth-child(1){
+    color: hsl(231deg 11% 63% / 65%);
+}
+.sumprice{
+    display: flex;
+    width: 100%;
+    text-transform: capitalize;
+    justify-content: space-between;
+    padding: 23px;
+}
+
+.sumprice h2{
+    color: #372ee9;
+}
